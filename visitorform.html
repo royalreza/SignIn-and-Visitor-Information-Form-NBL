@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Bank Visitor <Form></Form>
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-logo">
+
+        <img class="nlbLogo" src="images/national_bank_limited_1.png" alt="National Bank Limited">
+
+    </div>
+
+    <div class="container-form">
+        <h1>Visitor Information</h1>
+        <form action="/action_page.php">
+            <div class="input-row">
+                <div class="input-group">
+                    <label for="vName">Visitor Name</label>
+                    <input type="text" id="vName" name="vName">
+                </div>
+                <div class="input-group">
+                    <label for="vContactNumber">Contact Number</label>
+                    <input type="number">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="wfrom">Where From</label>
+                <input type="text" id="wfrom" name="wfrom">
+            </div>
+
+
+            <div class="input-row">
+                <div class="input-group">
+                    <label for="visitDate">Visit Date</label>
+                    <input type="date" id="visitDate" name="visitDate">
+                </div>
+                <div class="input-group">
+                    <label for="visitTime">Visit Time</label>
+                    <input type="time" id="visitTime" name="visiTime">
+                </div>
+                <div class="input-group">
+                    <label for="vCardNumber">Card Number</label>
+                    <input type="number">
+                </div>
+            </div>
+
+            <div class="input-row">
+                <div class="input-group">
+                    <label for="employeeName">Employee Name</label>
+                    <select class="employeeName" name="employeeName" id="employeeName">
+                        <option value="1"></option>
+                        <option value="2">Mr. Rocky</option>
+                        <option value="3">Mr. Royal</option>
+                        <option value="4">Mis. Haisna</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="employeeId">Employee ID</label><br>
+                    <input type="text" placeholder="Search.." name="employeeId">
+                </div>
+            </div>
+
+            <div class="input-row">
+                <div class="input-group">
+                    <label for="Purpose">Purpose :</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="radio" id="official" name="purpose" value="official">
+                    <label for="official">Official</label>
+                </div>
+                <div class="input-group">
+                    <input type="radio" id="person" name="purpose" value="person">
+                    <label for="person">Person</label>
+                </div>
+                <div class="input-group">
+                    <input type="radio" id="billPurpose" name="purpose" value="billPurpose">
+                    <label for="billPurpose">Bill Purpose</label>
+                </div>
+                <div class="input-group">
+                    <input type="radio" id="meeting" name="purpose" value="meeting">
+                    <label for="meeting">Meeting</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="radio" id="interview" name="purpose" value="interview">
+                    <label for="interview">Interview</label>
+                </div>
+
+            </div>
+            <div class="input-group">
+                <label for="remark">Remark</label>
+                <input type="text" id="remark" name="remark">
+            </div>
+
+
+            <div class="submitBtn">
+                <button type="button">Submit</button>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

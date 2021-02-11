@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #E6F0E7;
+    /*background: -webkit-linear-gradient(left,#30c75d, #02630a);*/
+}
+/* <-----Login Form section Start----> */
+.container{
+    width: 50%;
+    margin: 100px auto;
+}
+.signin-box{
+    background: white;
+    display: flex;
+}
+
+.signin-left{
+    flex-basis: 50%;
+    padding: 40px;
+    background: #06944A;
+}
+
+.signin-right{
+    flex-basis: 50%;
+    padding: 40px;
+    background: white;
+}
+
+.signin-left img{
+    width: 300px;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+
+}
+
+.signin-right h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: #06944A;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+label{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4E4E4E;
+    font-family: 'Poppins', sans-serif;
+}
+
+form input[type="text"],
+input[type="password"],
+input[type="number"]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #06944A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 15px;
+}
+.signinBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.signinBtn button{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: #06944A;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signinBtn button:hover {
+    opacity: 0.8;
+  }
+p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #4E4E4E;
+}
+
+
+/* <-----Login Form section end----> */
+
+
+
+/* <-----Visitor Form section start----> */
+
+.container-logo{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: 0;
+    background: #06944A;
+}
+.container-logo img{
+    width: 500px;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+.container-form{
+    width: 50%;
+    margin-top: -130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    background: white;
+    padding: 40px;
+}
+
+.container-form h1{
+    font-size: 32px;  
+    font-weight: 500;
+    color: #06944A;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+}
+.input-row .input-group{
+    flex-basis: 48%;
+}
+
+.input-group .employeeName{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #06944A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 15px;
+}
+form input[type="date"],
+input[type="time"]{
+    width: 80%;
+    height: 40px;
+    border: 1px solid #06944A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 15px;
+}
+.submitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.submitBtn button{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: #06944A;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submitBtn button:hover {
+    opacity: 0.8;
+  }
